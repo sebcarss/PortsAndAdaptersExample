@@ -5,9 +5,12 @@ import java.util.Map;
 
 import infrastructure.database.model.DynamoPrice;
 
+ /**
+  * This class would extend CrudRepository but instead it will be a stub
+  */
 public class PriceDAO {
-    // This class would extend CrudRepository but instead it will be a stub
 
+    /** This is a stubbed Map that represents our DynamoDB */
     private final Map<String, DynamoPrice> prices;
 
     public PriceDAO() {
